@@ -31,3 +31,4 @@ C:\Users\Alicia\Academy\Level 2\BryantAMiniChallenge2_Endpoint\obj\Debug\net8.0\
 C:\Users\Alicia\Academy\Level 2\BryantAMiniChallenge2_Endpoint\obj\Debug\net8.0\BryantAMiniChallenge2_Endpoint.pdb
 C:\Users\Alicia\Academy\Level 2\BryantAMiniChallenge2_Endpoint\obj\Debug\net8.0\BryantAMiniChallenge2_Endpoint.genruntimeconfig.cache
 C:\Users\Alicia\Academy\Level 2\BryantAMiniChallenge2_Endpoint\obj\Debug\net8.0\ref\BryantAMiniChallenge2_Endpoint.dll
+C:\Users\Alicia\Academy\Level 2\BryantAMiniChallenge2_Endpoint\obj\Debug\net8.0\BryantAMiniChallenge2_Endpoint.sourcelink.json
