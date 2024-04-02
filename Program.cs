@@ -22,3 +22,5 @@ app.MapGet("/wakeUp", (string name, string wakeUpTime) => {
     string result = "Hello " + name + ".. I see you woke up at " + wakeUpTime + ". Time is money hunnay!";
     return result;
 });
+
+app.Run();
