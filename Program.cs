@@ -37,8 +37,29 @@ app.MapGet("/gimmeSum", (double a, double b) =>{
 
 app.MapGet("/greaterOrLesser", (double a, double b) =>{
     
-    string resultOne= "";
-    string resultTwo = "";
+   
+    string firstResult = "";
+    string secondResult = "";
+
+    
+    if (a > b){
+        firstResult = a + " is great than " + b + "!";
+        secondResult = b + " is less than " + a + "!";
+    }
+
+    else if (b > a){
+        firstResult = b + " is great than " + a + "!";
+        secondResult = a + " is less than " + b + "!";   
+    }
+
+    else {
+        firstResult= b + " is equal to " + a + "!";
+        secondResult = a + " is equal to " + b + "!";
+    }
+    
+    string equation = firstResult + "\n" + secondResult;
+    return equation;
 });
+
 
 app.Run();
