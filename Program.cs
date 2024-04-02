@@ -18,6 +18,7 @@ app.UseHttpsRedirection();
 
 
 // Endpoint that accepts 2 inputs
+
 app.MapGet("/wakeUp", (string name, string wakeUpTime) => {
     string result = "Hello " + name + ".. I see you woke up at " + wakeUpTime + ". Time is money hunnay!";
     return result;
@@ -25,15 +26,17 @@ app.MapGet("/wakeUp", (string name, string wakeUpTime) => {
 
 
 // Endpoint that accepts 2 inputs
+
 app.MapGet("/gimmeSum", (double a, double b) =>{
 
     double sum = a + b;
+
     string result = "The Sum of " + a + " and " + b + " is " + sum + "!";
     return result;
 
 });
 
-// Endpoint that accepts 2 numbers"
+// Endpoint that accepts 2 numbers
 
 app.MapGet("/greaterOrLesser", (double a, double b) =>{
     
