@@ -45,7 +45,7 @@ app.MapGet("/greaterOrLesser", (double a, double b) =>{
     string secondNum = "";
 
     
-    // if statement used to compare firstResult with second
+    // If and else-if statement used to compare firstNum to secondNum
 
     if (a > b){
         firstNum = a + " is great than " + b + "!";
@@ -62,7 +62,7 @@ app.MapGet("/greaterOrLesser", (double a, double b) =>{
         secondNum = a + " is equal to " + b + "!";
     }
     
-    // newline character ("\n") - a special character used in strings and code to represent a new line
+    // Newline character ("\n") - a special character used in strings and code to represent a new line
     string equation = firstNum + "\n" + secondNum;
     return equation;
 });
