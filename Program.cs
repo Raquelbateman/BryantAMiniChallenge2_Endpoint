@@ -40,11 +40,12 @@ app.MapGet("/gimmeSum", (double a, double b) =>{
 
 app.MapGet("/greaterOrLesser", (double a, double b) =>{
     
-   
+   // two string variables declared to store the comparisons
     string firstResult = "";
     string secondResult = "";
 
     
+
     if (a > b){
         firstResult = a + " is great than " + b + "!";
         secondResult = b + " is less than " + a + "!";
@@ -60,6 +61,7 @@ app.MapGet("/greaterOrLesser", (double a, double b) =>{
         secondResult = a + " is equal to " + b + "!";
     }
     
+    // newline character ("\n") - a special character used in strings and code to represent a new line
     string equation = firstResult + "\n" + secondResult;
     return equation;
 });
