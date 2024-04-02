@@ -35,5 +35,10 @@ app.MapGet("/gimmeSum", (double a, double b) =>{
 
 // Endpoint that accepts 2 numbers"
 
-app.MapGet("/")
+app.MapGet("/greaterOrLesser", (double a, double b) =>{
+    
+    string resultOne= "";
+    string resultTwo = "";
+});
+
 app.Run();
