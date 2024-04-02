@@ -17,7 +17,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 
-// Endpoint that accepts 2 inputs
+// Endpoint that accepts 2 inputs, the users name and the time they woke up
 
 app.MapGet("/wakeUp", (string name, string wakeUpTime) => {
     string result = "Hello " + name + ".. I see you woke up at " + wakeUpTime + ". Time is money hunnay!";
@@ -25,7 +25,7 @@ app.MapGet("/wakeUp", (string name, string wakeUpTime) => {
 });
 
 
-// Endpoint that accepts 2 inputs
+// Endpoint that accepts 2 inputs and returns their sum
 
 app.MapGet("/gimmeSum", (double a, double b) =>{
 
