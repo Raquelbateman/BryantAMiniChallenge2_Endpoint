@@ -36,33 +36,34 @@ app.MapGet("/gimmeSum", (double a, double b) =>{
 
 });
 
-// Endpoint that accepts 2 numbers
+// Endpoint that accepts 2 numbers and tells you if the chosen numbers are either greater or lesser than one another
 
 app.MapGet("/greaterOrLesser", (double a, double b) =>{
     
    // two string variables declared to store the comparisons
-    string firstResult = "";
-    string secondResult = "";
+    string firstNum = "";
+    string secondNum = "";
 
     
+    // if statement used to compare firstResult with second
 
     if (a > b){
-        firstResult = a + " is great than " + b + "!";
-        secondResult = b + " is less than " + a + "!";
+        firstNum = a + " is great than " + b + "!";
+        secondNum = b + " is less than " + a + "!";
     }
 
     else if (b > a){
-        firstResult = b + " is great than " + a + "!";
-        secondResult = a + " is less than " + b + "!";   
+        firstNum = b + " is great than " + a + "!";
+        secondNum = a + " is less than " + b + "!";   
     }
 
     else {
-        firstResult= b + " is equal to " + a + "!";
-        secondResult = a + " is equal to " + b + "!";
+        firstNum = b + " is equal to " + a + "!";
+        secondNum = a + " is equal to " + b + "!";
     }
     
     // newline character ("\n") - a special character used in strings and code to represent a new line
-    string equation = firstResult + "\n" + secondResult;
+    string equation = firstNum + "\n" + secondNum;
     return equation;
 });
 
