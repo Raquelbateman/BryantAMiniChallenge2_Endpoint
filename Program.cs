@@ -24,7 +24,7 @@ app.MapGet("/wakeUp", (string name, string wakeUpTime) => {
 });
 
 
-
+// Endpoint that accepts 2 inputs
 app.MapGet("/gimmeSum", (double a, double b) =>{
 
     double sum = a + b;
@@ -33,4 +33,7 @@ app.MapGet("/gimmeSum", (double a, double b) =>{
 
 });
 
+// Endpoint that accepts 2 numbers"
+
+app.MapGet("/")
 app.Run();
