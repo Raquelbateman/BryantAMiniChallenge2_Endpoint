@@ -23,4 +23,14 @@ app.MapGet("/wakeUp", (string name, string wakeUpTime) => {
     return result;
 });
 
+
+
+app.MapGet("/gimmeSum", (double a, double b) =>{
+
+    double sum = a + b;
+    string result = "The Sum of " + a + " and " + b + " is " + sum + "!";
+    return result;
+
+});
+
 app.Run();
