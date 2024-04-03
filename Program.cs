@@ -48,12 +48,12 @@ app.MapGet("/greaterOrLesser", (double a, double b) =>{
     // If and else-if statement used to compare firstNum to secondNum
 
     if (a > b){
-        firstNum = a + " is great than " + b + "!";
+        firstNum = a + " is greater than " + b + "!";
         secondNum = b + " is less than " + a + "!";
     }
 
     else if (b > a){
-        firstNum = b + " is great than " + a + "!";
+        firstNum = b + " is greater than " + a + "!";
         secondNum = a + " is less than " + b + "!";   
     }
 
