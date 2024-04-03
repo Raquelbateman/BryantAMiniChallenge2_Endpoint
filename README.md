@@ -1,11 +1,9 @@
-// Your name 
+// Alicia Bryant
 
- // Date Revised: This is the last day you saved. 
+ // Date Revised: 04/01/2024
 
- // Assignment name 
+ // Assignment name: Mini Challenge 2-4 Endpoints
 
- // Brief Description of what you did. 
+ // Brief Description of what you did: Designed an API with 3 endpoints.
 
- // You can add multiple dates with descriptions.
-
-// Person who Peer Reviewed your assignment
+ // Peer Reviewed By: 
