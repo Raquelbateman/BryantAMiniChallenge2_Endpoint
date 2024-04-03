@@ -63,8 +63,8 @@ app.MapGet("/greaterOrLesser", (double a, double b) =>{
     }
     
     // Newline character ("\n") - a special character used in strings and code to represent a new line
-    string equation = firstNum + "\n" + secondNum;
-    return equation;
+    string statement = firstNum + "\n" + secondNum;
+    return statement;
 });
 
 
